@@ -8,6 +8,6 @@ class ApplicationController < ActionController::Base
   end
 
   def goodbye
-    renter text: "Goodbye"
+    render text: "Goodbye"
   end
 end
